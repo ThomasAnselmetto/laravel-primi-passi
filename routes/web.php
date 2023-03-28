@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    echo "Benvenuti in laravel";
+});
+
+Route::get('/carramba', function () {
+    echo "Laravel e' bellissimo";
 });
